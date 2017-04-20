@@ -15,14 +15,14 @@
 // export default class BFChartDemo2 extends Component {
 //   render() {
 //     return (
-//       <View style={styles.container}>
-//         <Text style={styles.welcome}>
+//       <View style={style.container}>
+//         <Text style={style.welcome}>
 //           Welcome to React Native!
 //         </Text>
-//         <Text style={styles.instructions}>
+//         <Text style={style.instructions}>
 //           To get started, edit index.ios.js
 //         </Text>
-//         <Text style={styles.instructions}>
+//         <Text style={style.instructions}>
 //           Press Cmd+R to reload,{'\n'}
 //           Cmd+D or shake for dev menu
 //         </Text>
@@ -31,7 +31,7 @@
 //   }
 // }
 //
-// const styles = StyleSheet.create({
+// const style = StyleSheet.create({
 //   container: {
 //     flex: 1,
 //     justifyContent: 'center',
@@ -53,3 +53,4 @@
 // AppRegistry.registerComponent('BFChartDemo2', () => BFChartDemo2);
 
 import './app/index';
+// import './index2';

@@ -40,7 +40,7 @@ export default class BFChartDemo2 extends Component {
                 //改变icon的布局朝向
                 //orient: 'vertical',
                 show : true,
-                showTitle:true,
+                showTitle:false,
                 feature : {
                     //show是否显示表格，readOnly是否只读
                     dataView : {show: true, readOnly: false},
@@ -66,6 +66,11 @@ export default class BFChartDemo2 extends Component {
                     name : '销量(kg)'
                 }
             ],
+
+            visualMap: {
+                show: false,
+            },
+
             //图形的颜色组
             color:['rgb(249,159,94)','rgb(67,205,126)'],
             //需要显示的图形名称，类型，以及数据设置
