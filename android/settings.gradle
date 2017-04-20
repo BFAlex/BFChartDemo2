@@ -1,0 +1,3 @@
+rootProject.name = 'BFChartDemo2'
+
+include ':app'
