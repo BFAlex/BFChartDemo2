@@ -6,9 +6,13 @@ import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
 
-    sportBaseContainer: {
+    walkBaseContainer: {
         flex: 1,
         alignItems: 'center',
-        backgroundColor: '#d3d3d3',
+    },
+
+    runBaseContainer: {
+        flex: 1,
+        alignItems: 'center',
     },
 });

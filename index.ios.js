@@ -52,5 +52,5 @@
 //
 // AppRegistry.registerComponent('BFChartDemo2', () => BFChartDemo2);
 
-import './app/index';
-// import './index2';
+// import './app/index';
+import './index2';

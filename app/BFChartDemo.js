@@ -11,26 +11,32 @@ import {
 
 import Dimensions from 'Dimensions';
 const {width} = Dimensions.get('window');
-import BFSportChart from './BFSportChart';
+// import BFSportChart from './BFSportChart';
+import BFWalkChart from './BFWalkChart';
+import BFRunChart from './BFRunChart';
+
 
 export default class BFChartDemo extends Component {
 
     render() {
 
         return (
-            <View style={Styles.baseContainer}>
-                <Text style={Styles.titleContainer}>
+            <View style={dStyles.baseContainer}>
+                <Text style={dStyles.titleContainer}>
                     这个组件用于展示自定义图表的用法
                 </Text>
-                <View style={Styles.chartContainer}>
-                    <BFSportChart/>
+                <View style={dStyles.chartContainer}>
+                    <BFWalkChart width={width} height={300} />
+                </View>
+                <View style={dStyles.chartContainer}>
+                    <BFRunChart/>
                 </View>
             </View>
         );
     }
 }
 
-const Styles = StyleSheet.create({
+const dStyles = StyleSheet.create({
     baseContainer: {
         flex: 1,
         backgroundColor: '#f0ffff',
@@ -44,7 +50,7 @@ const Styles = StyleSheet.create({
 
     chartContainer: {
         width: width,
-        height: 360,
+        height: 300,
         marginTop: 20,
         padding: 5,
     },
